@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Pomodoro Timer</h1>
+      <h1>Pomodora Timer</h1>
       <div className="mode-buttons">
         <button
           className={mode === "pomodoro" ? "active" : ""}
