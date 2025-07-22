@@ -1,12 +1,46 @@
-# React + Vite
+# ⏱️ Pomodoro Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive Pomodoro timer web application built with **React**, **Vite**, and **pure CSS** — no backend or database. Includes 3 timer modes, sound alerts, and clean UI.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Click here to use the Pomodoro Timer](https://zentick.vercel.app/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Features
+
+- ⏲️ 3 Timer Modes:
+  - Pomodoro (25 minutes)
+  - Short Break (5 minutes)
+  - Long Break (30 minutes)
+- ✅ Start / Pause / Reset Controls
+- 🔔 Alarm sound when timer ends
+- 🎨 Styled with pure CSS (no frameworks)
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+---
+
+## 📦 Installation & Running Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/pomodoro-timer.git
+cd pomodoro-timer
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
+npm run dev
+
+# 4. Build for production
+npm run build
