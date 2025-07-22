@@ -18,6 +18,11 @@ function App() {
     setSecondsLeft(MODES[mode]);
     setIsRunning(false);
     clearInterval(timerRef.current);
+    // Stop audio when changing modes
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
   }, [mode]);
 
   useEffect(() => {
