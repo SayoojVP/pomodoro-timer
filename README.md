@@ -4,7 +4,7 @@ A simple, responsive Pomodoro timer web application built with **React**, **Vite
 
 ## 🚀 Live Demo
 
-👉 [Click here to use the Pomodoro Timer](https://zentick.vercel.app/)  
+ [Click here to use the Pomodoro Timer](https://zentick.vercel.app/)  
 
 ---
 
